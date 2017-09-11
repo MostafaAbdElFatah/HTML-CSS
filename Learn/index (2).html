@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+	document.getElementById("myBtn").addEventListener("click", displayDate);
+		function asd(obj) {
+			obj.style.color='red';
+            obj.style.backgroundColor="blue";
+            obj.style.fontSize="50px";
+            obj.innerHTML="Hello in javascript";
+		}
+       function enter(obj) {
+	        obj.style.backgroundColor="yellow";
+	        obj.style.fontSize="50px";
+	        obj.style.color="white";
+       }
+       function out(obj) {
+	        obj.style.backgroundColor="white";
+	        obj.style.fontSize="10px";
+	        obj.style.color="black";
+       }
+       
+
+       function displayDate() {
+           document.getElementById("demo").innerHTML = Date();
+        }
+
+	</script>
+</head>
+<body>
+<p onclick="asd(this)" onmouseover="enter(this)" onmouseout="out(this)" >asdddddddddddddd</p>
+<h1 onclick="this.innerHTML='Ooops!'">Click on this text!</h1>
+
+<button id="myBtn">Try it</button>
+
+<p id="demo"></p>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.inputtext { margin-left:80%;margin-top:2%;}
+.image {margin-top:50%;}
+.radio { color:white; margin-left:80%;margin-top:1%;}
+.menublock {border-right-style:solid; border-right-color:#999;float:left;width:17%;margin-right:3%; margin-top:2%;}
+.ahref {color: #fff;	text-decoration: none;}
+ul#list {list-style-type:square; color:white;}
+
+.menu li { list-style-type:none;font-size:15px;	float:left; padding-right: 5%; }
+.menu li pre a{color:#AAA;}
+.menu li pre a:hover{color:white;}
+.menu { margin-left:7.5%;}
+#im { width:90%;margin-left:5%;}

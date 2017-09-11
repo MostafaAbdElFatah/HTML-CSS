@@ -1,0 +1,33 @@
+
+body {
+	background:darkgray;
+}
+div#body {
+	margin-left:5%;	background: #fff;	width: 90%;	height: 90%;
+}
+
+.h {
+	width: 100%;    
+}
+.menu {
+	margin-top: -2%;	color: #000;
+}
+.menu li {
+	display: inline; padding-right: 5%;
+}
+.fo {text-decoration: none;}
+.item {
+	color: #000;	text-decoration: none;
+}
+.menu a:hover {
+      color: #fff;
+}
+.table {
+	width: 80%;height:60%; margin-left:2%; background-color:#FFFFAA; border-style: groove;border-color:yellow; 
+}
+.text{
+	text-align: center;
+}
+.links {
+	color: #000;	text-decoration: none;
+}

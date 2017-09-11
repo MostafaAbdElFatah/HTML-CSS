@@ -1,0 +1,31 @@
+
+#menu ul li {
+    display:inline;
+}
+map{
+	border: 10px;
+	border-color:red; 
+}
+a:link    {color:#000000; background-color:transparent; text-decoration:underline;}
+a:visited {color:#000000; background-color:transparent; text-decoration:none}
+a:hover   {color:#ff0000; background-color:transparent; text-decoration:none;}
+a:active  {color:#ff0000; background-color:transparent; text-decoration:overline;}
+h1 {
+    color:blue;
+    font-family:verdana;
+    font-size:300%;
+}
+p  {
+    color:red;
+    font-family:courier;
+    font-size:160%;
+}
+blockquote#block{
+	color:blue;
+	font-size: 50px;
+}
+ul li.f{
+
+	color:blue;
+	font-size: 50; 
+}

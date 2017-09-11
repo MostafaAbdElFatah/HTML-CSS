@@ -1,0 +1,10 @@
+p{
+	display: inline;
+}
+span{
+	display: block;
+}
+ul li {
+	display: inline-block;
+	margin-left: 50px;
+}

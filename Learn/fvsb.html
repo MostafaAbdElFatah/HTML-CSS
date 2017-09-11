@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script type="text/javascript">
+    var count=0;
+    function myFunction() {
+    var x = document.getElementById("hello");
+    x.style.fontSize = "60px";           
+    x.style.color = "red"; 
+    }
+	function cliked() {
+
+		var x = "5" + 2 + 3;
+		if(count%2==0){
+			document.getElementById('hello').innerHTML = x +' hello in java script';
+		}else
+			document.getElementById('hello').innerHTML =" java script programing  fun ";
+		 count++;
+		 console.log('hello');
+	}
+	function entre() {
+		confirm('you entre to me');
+		var x=document.getElementById('hello');
+		x.color=red;
+		
+	}
+	function leave() {
+		confirm("you out to me");
+		obj.style.background=red;
+	}
+</script>
+<h1 id="hello" onmouseover="entre();" onmouseout="leave();" >My First Web Page</h1>
+<p>My first paragraph.</p>
+<button style="width:10%;margin-left: 20%;" onclick="cliked()">Ok</button>
+<input type="text" value="hello in html and css"></input>unchecked
+<input type="radio" checked="" ></input>checked
+<input type="radio" ></input>
+
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+</body>
+</html>

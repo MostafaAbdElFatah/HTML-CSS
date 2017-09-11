@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+}
+td {
+    padding: 15px;
+}
+table, td, th {
+    border: 5px solid green;
+}
+
+th {
+    background-color: green;
+    color: white;
+}
+tr#grn {
+	background-color:#0f0;
+    color: white;
+}
+div{
+	width: 90%;
+	height: 50%;
+	border-color: #0f0;
+	border-width:20px;
+    border-top-style: dashed;
+    border-right-style: groove;
+    border-bottom-style: dotted;
+    border-left-style:double;
+}

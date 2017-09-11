@@ -1,0 +1,10 @@
+ul {
+    list-style: square inside url("w3schools.jpg");
+}
+ul#list{
+	color:blue;
+}
+ul#list li{
+     padding-right: 50px;
+	display: inline;
+}
